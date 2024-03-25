@@ -1,24 +1,27 @@
 ## 1) PROJET :
-Problème de classification multi-label (catégoriser automatiquement du texte).
+Problème de clustering (méthode d'apprentissage non supervisée).
 <br/>
 <br/>
 <br/>
 ## 2) PROBLEMATIQUE : 
-Développer un algorithme de machine learning qui prédit plusieurs tags associés à une question du site Stack Overflow.
+Segmenter les clients d’un site e-commerce.<br/>
+Analyser la stabilité des segments au cours du temps.<br/>
+Proposer un contrat de maintenance.
 <br/>
 <br/>
 <br/>
 ## 3) DATASET :
-Stack Overflow (questions et réponses dans différents domaines du développement informatique).
+Données client fournies par Olist (le plus grand site e‑commerce brésilien) : historique de commandes, produits achetés, commentaires de satisfaction, localisation.
 <br/>
 <br/>
 <br/>
 ## 4) NOTEBOOKS :
-- NOTEBOOK D'EXPLORATION : **1_notebook_exploration.ipynb / 1_notebook_exploration_light.ipynb** (version avec des traces réduites) :<br/>
+- NOTEBOOK D'EXPLORATION : **1_notebook_exploration.ipynb** :<br/>
 -- *Analyse univariée.*<br/>
--- *Analyse multivariée.*<br/> 
--- *Réduction dimensionnelle.*<br/>
--- *Différentes questions de recherche associées.*<br/> 
-- NOTEBOOK DE TEST : **2_notebook_test.ipynb** : <br/>
--- *Test des différents modèles.*<br/>
-- POINT D'ENTREE D'UNE API POUR LE TEST : **4_point_entree_API.ipynb**.
+-- *Analyse bivariée.*<br/>
+-- *Feature engineering (dataframe commande centré).*<br/>
+-- *Dataframe client centré.*<br/> !!
+- NOTEBOOK D'ESSAI DES DIFFRENTES APPROCHES EXPLORATOIRES : **2_notebook_essais_light.ipynb** (version avec des traces réduites) : <br/>
+-- *Clustering algorithme K-Means (méthode elbow, méthode coefficient de silhouette).*<br/>
+-- *Clustering algorithme DBSCAN.*<br/>
+- DETERMINATION DE LA FREQUENCE NECESSAIRE DE MISE A JOUR DU MODELE DE SEGMENTATION : **3_notebook_simulation.ipynb**.
