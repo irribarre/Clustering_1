@@ -20,7 +20,7 @@ Données client fournies par Olist (le plus grand site e‑commerce brésilien) 
 -- *Analyse univariée.*<br/>
 -- *Analyse bivariée.*<br/>
 -- *Feature engineering (dataframe commande centré).*<br/>
--- *Dataframe client centré.*<br/> !!
+-- *Dataframe client centré.*<br/>
 - NOTEBOOK D'ESSAI DES DIFFRENTES APPROCHES EXPLORATOIRES : **2_notebook_essais_light.ipynb** (version avec des traces réduites) : <br/>
 -- *Clustering algorithme K-Means (méthode elbow, méthode coefficient de silhouette).*<br/>
 -- *Clustering algorithme DBSCAN.*<br/>
